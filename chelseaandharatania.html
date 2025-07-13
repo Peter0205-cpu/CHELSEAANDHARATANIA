@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat 1 Bulan Sayang!</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      background: url('WhatsApp%20Image%202025-07-14%20at%2001.07.26_8c9d9456.jpg') center center no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Blur layer */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: inherit;
+      background-size: cover;
+      filter: blur(10px);
+      transform: scale(1.05);
+      z-index: -2;
+    }
+
+    /* Shadow layer agar teks lebih jelas */
+    body::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .photo {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 15px;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+
+    h1 {
+      font-size: 2.2em;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.7;
+    }
+
+    .love {
+      font-size: 2.5em;
+      animation: pulse 1.5s infinite;
+      margin: 15px 0;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6em; }
+      p { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>❤️ Happy Anniversary 1 Bulan, Chelsea Andhara Tania ❤️</h1>
+
+    <!-- Ini foto aslinya ditaruh UTUH di tengah -->
+    <img src="WhatsApp%20Image%202025-07-14%20at%2001.07.26_8c9d9456.jpg" alt="Foto kita" class="photo">
+
+    <p>
+      Hari ini merupakan hari kita 1 bulan resmi pacaran hehehe.  
+      Aku cuma bisa ngucapin lewat link ini, karena aku bener-bener sayang banget sama kamu.  
+      Makasih udah mau terima aku apa adanya, dengan semua kekuranganku.  
+      Semoga hubungan kita langgeng terus ke depannya dan bisa jadi berkat buat banyak orang.  
+      I LOVE YOU, CHELSEA ANDHARA TANIA 💕
+    </p>
+
+    <div class="love">💖</div>
+
+    <p>Aku sayang kamu selalu~</p>
+  </div>
+</body>
+</html>
